@@ -32,7 +32,7 @@ describe('a RegisteredUser entities', () => {
       fullname: 'Dicoding Indonesia',
     };
 
-    // Action 
+    // Action
     const registeredUser = new RegisteredUser(payload);
 
     // Assert
@@ -40,6 +40,4 @@ describe('a RegisteredUser entities', () => {
     expect(registeredUser.username).toEqual(payload.username);
     expect(registeredUser.fullname).toEqual(payload.fullname);
   });
-
 });
-
