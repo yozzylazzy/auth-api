@@ -9,5 +9,11 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "linebreak-style": "off",
+        "no-underscore-dangle": "off",
+        "no-undef": "off",
+        "no-shadow": "off",
+        "no-use-before-define": "off",
+        "class-methods-use-this": "off"
     }
 }
