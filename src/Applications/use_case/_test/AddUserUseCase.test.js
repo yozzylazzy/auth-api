@@ -33,8 +33,8 @@ describe('AddUserUseCase', () => {
 
     /** creating use case instance */
     const getUserUseCase = new AddUserUseCase({
-      UserRepository: mockUserRepository,
-      PasswordHash: mockPasswordHash,
+      userRepository: mockUserRepository,
+      passwordHash: mockPasswordHash,
     });
 
     // Action

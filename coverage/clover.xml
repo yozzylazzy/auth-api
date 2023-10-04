@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1696323075124" clover="3.2.0">
-  <project timestamp="1696323075124" name="All files">
-    <metrics statements="53" coveredstatements="51" conditionals="27" coveredconditionals="27" methods="12" coveredmethods="12" elements="92" coveredelements="90" complexity="0" loc="53" ncloc="53" packages="5" files="9" classes="9"/>
+<coverage generated="1696392043145" clover="3.2.0">
+  <project timestamp="1696392043145" name="All files">
+    <metrics statements="53" coveredstatements="53" conditionals="27" coveredconditionals="27" methods="12" coveredmethods="12" elements="92" coveredelements="92" complexity="0" loc="53" ncloc="53" packages="5" files="9" classes="9"/>
     <package name="Applications.security">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="PasswordHash.js" path="D:\Materi Belajar\Kelas Khusus\Dicoding.com\Menjadi Back-End Developer Expert\latihan\auth-api\src\Applications\security\PasswordHash.js">
@@ -11,16 +11,16 @@
       </file>
     </package>
     <package name="Applications.use_case">
-      <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="AddUserUseCase.js" path="D:\Materi Belajar\Kelas Khusus\Dicoding.com\Menjadi Back-End Developer Expert\latihan\auth-api\src\Applications\use_case\AddUserUseCase.js">
-        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
       </file>
     </package>
@@ -70,29 +70,29 @@
       <metrics statements="22" coveredstatements="22" conditionals="24" coveredconditionals="24" methods="3" coveredmethods="3"/>
       <file name="RegisterUser.js" path="D:\Materi Belajar\Kelas Khusus\Dicoding.com\Menjadi Back-End Developer Expert\latihan\auth-api\src\Domains\users\entities\RegisterUser.js">
         <metrics statements="12" coveredstatements="12" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
-        <line num="3" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="3" count="7" type="cond" truecount="5" falsecount="0"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="7" count="5" type="cond" truecount="5" falsecount="0"/>
+        <line num="7" count="6" type="cond" truecount="5" falsecount="0"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
       </file>
       <file name="RegisteredUser.js" path="D:\Materi Belajar\Kelas Khusus\Dicoding.com\Menjadi Back-End Developer Expert\latihan\auth-api\src\Domains\users\entities\RegisteredUser.js">
         <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="13" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="13" count="5" type="cond" truecount="5" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="17" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="17" count="4" type="cond" truecount="5" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
       </file>
