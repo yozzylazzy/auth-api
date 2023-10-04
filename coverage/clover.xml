@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1696394724516" clover="3.2.0">
-  <project timestamp="1696394724516" name="All files">
-    <metrics statements="69" coveredstatements="69" conditionals="29" coveredconditionals="29" methods="15" coveredmethods="15" elements="113" coveredelements="113" complexity="0" loc="69" ncloc="69" packages="6" files="10" classes="10"/>
+<coverage generated="1696401999822" clover="3.2.0">
+  <project timestamp="1696401999822" name="All files">
+    <metrics statements="75" coveredstatements="75" conditionals="30" coveredconditionals="30" methods="17" coveredmethods="17" elements="122" coveredelements="122" complexity="0" loc="75" ncloc="75" packages="7" files="11" classes="11"/>
     <package name="Applications.security">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="PasswordHash.js" path="D:\Materi Belajar\Kelas Khusus\Dicoding.com\Menjadi Back-End Developer Expert\latihan\auth-api\src\Applications\security\PasswordHash.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
       </file>
     </package>
     <package name="Applications.use_case">
@@ -117,6 +117,18 @@
         <line num="34" count="2" type="stmt"/>
         <line num="36" count="2" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Infrastructures.security">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="BcryptPasswordHash.js" path="D:\Materi Belajar\Kelas Khusus\Dicoding.com\Menjadi Back-End Developer Expert\latihan\auth-api\src\Infrastructures\security\BcryptPasswordHash.js">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
   </project>
