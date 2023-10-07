@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcrypt');
 const BcryptPasswordHash = require('../BcryptPasswordHash');
 
 describe('BcryptPasswordHash', () => {
@@ -14,7 +14,7 @@ describe('BcryptPasswordHash', () => {
       // Assert
       expect(typeof encyptedPassword).toEqual('string');
       expect(encyptedPassword).not.toEqual('plain_password');
-      expect(spyHash).toBeCalledWith('plain_password', 10); // 10 = default saltRound 
+      expect(spyHash).toBeCalledWith('plain_password', 10); // 10 = default saltRound
     });
   });
 });
