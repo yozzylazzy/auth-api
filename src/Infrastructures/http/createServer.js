@@ -9,13 +9,6 @@ const createServer = async (container) => {
     port: process.env.PORT,
   });
 
-  await server.register([
-    {
-      plugin: users,
-      options: { container },
-    },
-  ]);
-
   server.route({
     method: 'GET',
     path: '/',
@@ -23,6 +16,13 @@ const createServer = async (container) => {
       value: 'Hello world!',
     }),
   });
+
+  await server.register([
+    {
+      plugin: users,
+      options: { container },
+    },
+  ]);
 
   server.ext('onPreResponse', (request, h) => {
     // mendapatkan konteks response dari request
